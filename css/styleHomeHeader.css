@@ -1,0 +1,78 @@
+/*identação relativamente compreencivel*/
+.menuHorizontal{
+    background-color: grey;
+    display: flex;
+    width: 100%;
+
+}
+    .logo{
+        margin: 10px;
+        border: green solid 2px;
+    }
+        .logo img{
+            width: 100px;
+        }
+
+.pesquisaMenu{
+    border: green 2px solid;
+    display: flex;
+    height: 70px;
+    width: 70%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+    .juncaoPesquisaBotao{
+        width: 80%;
+        height: 20px;
+        border-radius: 2px;
+        }
+    .pesquisaMenu input{
+        width: 100%;
+        height: 20px;
+        border-radius: 2px;       
+    }
+        .pesquisaMenu button{
+            position: absolute;
+            
+            border-radius: 2px;
+        }
+        
+    .menuLista{
+        margin-top: 80px;
+        margin-left:20%;
+        position: absolute;
+
+    }
+
+        .menuLista ul{
+        display: flex;
+        list-style: none;
+        border: green 2px solid;
+        
+        
+        }
+
+        .menuLista button{
+            margin: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            
+        }
+
+.supDireitoMenu{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: green 2px solid;
+    
+}
+    .opcoesUsuario{
+        border: green 2px solid;
+    }
+        .opcoesUsuario button{
+            width: 30px;
+            height: 30px;
+            border: green 2px solid;
+        }
